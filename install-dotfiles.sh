@@ -31,10 +31,10 @@ if [ $? -eq 0 ]; then
 
   cd "$REPO_NAME"
   stow zshrc
-  stow ghostty
-  stow tmux
-  stow nvim
   stow starship
+  stow tmux
+  #stow ghostty
+  #stow nvim
 else
   echo "Failed to clone the repository."
   exit 1
