@@ -27,7 +27,7 @@ fi
 if [ $? -eq 0 ]; then
   echo "removing old configs"
   # rm -rf ~/.config/nvim ~/.config/starship.toml ~/.local/share/nvim/ ~/.cache/nvim/ ~/.config/ghostty/config
-  rm -rf ~/.config/starship.toml ~/.config/ghostty/config
+  rm -rf ~/.config/starship.toml
 
   cd "$REPO_NAME"
   stow zshrc
