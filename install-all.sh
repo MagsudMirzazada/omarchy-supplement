@@ -10,6 +10,7 @@
 ./install-tmux.sh
 ./install-tree.sh
 ./install-stow.sh
+
 ./install-dotfiles.sh
 
 ./set-shell.sh
