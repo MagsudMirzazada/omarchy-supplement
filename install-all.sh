@@ -8,8 +8,8 @@
 #./install-postgresql.sh
 ./install-ghostty.sh
 ./install-tmux.sh
+./install-tree.sh
 ./install-stow.sh
 ./install-dotfiles.sh
-#./install-hyprland-overrides.sh
 
 ./set-shell.sh
